@@ -1,0 +1,91 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        body{
+            background-image: url('../../../assets/images/background.jpg');
+            background-size: 100%;
+        }
+        form button{
+            width: 200px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<!-- LOGIN MODULE -->
+<div class="login">
+    <div class="wrap">
+<!--        THÔNG BÁO ĐĂNG NHẬP - ĐĂNG KÍ -->
+        <div class="notification">
+<!--            nơi dành cho thông báo-->
+            <!-- SLIDER -->
+            <div class="content">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="#"><img src="http://res.cloudinary.com/dpcloudinary/image/upload/v1506186248/logo.png" alt=""></a>
+                </div>
+                <!-- SLIDESHOW -->
+                <div id="slideshow">
+                    <div class="one">
+                        <h2><span>NHÂN</span></h2>
+                        <p>người với người đối xử với nhau trên cơ sở tình thương yêu. </p>
+                    </div>
+                    <div class="two">
+                        <h2><span>NGHĨA</span></h2>
+                        <p>chỉ làm và nên làm những việc nhằm duy trì đạo lý, lẽ phải.</p>
+                    </div>
+                    <div class="three">
+                        <h2><span>LỄ</span></h2>
+                        <p> theo quan điểm của Nho giáo, Lễ bao gồm việc thờ cúng, lễ bái thánh thần, trời Phật và cả những quy định có tính chất pháp luật, những phong tục, tập quán và kỷ luật tinh thần của cá nhân.</p>
+                    </div>
+                    <div class="four">
+                        <h2><span>TRÍ</span></h2>
+                        <p> tri thức để suy xét, hành động. Một trong những điểm quan trọng của Trí là phải nắm được mệnh trời.</p>
+                    </div>
+                    <div class="fIVE">
+                        <h2><span>TÍN</span></h2>
+                        <p>việc làm nhất quán với lời nói, giữ lời "nhất ngôn ký xuất, tứ mã nan truy"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LOGIN FORM -->
+        <div class="user">
+
+                <div class="card card-container">
+
+                    <img id="profile-img" class="profile-img-card" src="../../../assets/images/favicon2.png" />
+                    <p id="profile-name" class="profile-name-card"></p>
+                    <form class="form-signin" autocomplete="off">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus autocomplete="none">
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required  autocomplete="none">
+                        <div id="remember" class="checkbox">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+
+                        <button class="btn btn-lg btn-primary  btn-block btn-login" type="submit">Đăng nhập</button>
+                    </form><!-- /form -->
+                    <a href="#" routerLink="/singup" class="forgot-password">
+                       Tạo tài khoản.
+                    </a>
+                </div><!-- /card-container -->
+
+
+        </div>
+    </div>
+</div>
+
+</body>
+
